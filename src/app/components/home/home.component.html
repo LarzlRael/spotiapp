@@ -1,0 +1,4 @@
+<app-load-spinner *ngIf="loading "></app-load-spinner>
+
+<div *ngIf="error" class="alert alert-danger">{{messageError}}</div>
+<app-tarjets [items]="nuevasCanciones"></app-tarjets>
